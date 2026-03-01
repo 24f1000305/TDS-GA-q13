@@ -7,7 +7,7 @@ const { chromium } = require('playwright');
   let totalSum = 0;
 
   for (let seed = 73; seed <= 82; seed++) {
-    const url = `https://https://sanand0.github.io/tdsdata/js_table/?seed=${seed}`; 
+    const url = `https://sanand0.github.io/tdsdata/js_table/?seed=${seed}`; 
     await page.goto(url, { waitUntil: "networkidle" });
 
     await page.waitForSelector("table");
