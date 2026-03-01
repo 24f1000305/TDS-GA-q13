@@ -1,0 +1,11 @@
+{
+  "name": "tds-ga-q13",
+  "version": "1.0.0",
+  "main": "sumTables.js",
+  "scripts": {
+    "start": "node sumTables.js"
+  },
+  "dependencies": {
+    "playwright": "^1.42.0"
+  }
+}
